@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+	font-family: 'inter';
+	
+}
+
+button {
+	color: inherit;
+	font: inherit;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	touch-action: manipulation;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.form__input-box {
+	color: inherit;
+	font: inherit;
+	background-color: transparent;
+
+}
