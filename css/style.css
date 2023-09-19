@@ -5,10 +5,43 @@ body {
 		pink 50%,
 		paleturquoise 50%,
 		paleturquoise 100%);
-	padding: 15px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.marquee {
+	background: yellow;
+	height: 24px;
+	width: 100%;
+	left: 0;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+}
+
+.marquee__text {
+	font-weight: 300;
+	position: fixed;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+	0% {
+		left: 100%;
+		transform: translate(0%, 0%);
+	}
+
+	100% {
+		left: 0%;
+		transform: translate(-101%, 0%);
+	}
 }
 
 h1 {
+	color: blue;
+	font-size: 40px;
 	width: 100%;
 	height: 200px;
 	display: flex;
@@ -22,6 +55,7 @@ h1 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
+	padding-bottom: 100px;
 
 }
 
@@ -49,3 +83,10 @@ h1 {
 .image:hover {
 	transform: rotate(360deg);
 }
+
+/* @media (max-width: 960px) {
+	body {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+} */
