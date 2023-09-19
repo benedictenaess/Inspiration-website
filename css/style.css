@@ -10,10 +10,12 @@ body {
 }
 
 .marquee {
+	position: absolute;
 	background: yellow;
 	opacity: 70%;
 	height: 24px;
 	width: 100%;
+	top: 15px;
 	left: 0;
 	position: fixed;
 	display: flex;
@@ -28,20 +30,45 @@ body {
 	justify-content: space-evenly;
 	flex-wrap: nowrap;
 	white-space: nowrap;
-	animation: marquee 12s linear infinite;
+	animation: marquee 10s linear infinite;
 }
 
 .marquee__text-two {
 	left: 100%;
-	word-spacing: 15px;
+	word-spacing: 10px;
 	color: rgb(5, 5, 131);
 	position: fixed;
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: nowrap;
 	white-space: nowrap;
-	animation: marquee 12s linear infinite;
-	animation-delay: 6s;
+	animation: marquee 10s linear infinite;
+	animation-delay: 2.5s;
+}
+
+.marquee__text-three {
+	left: 100%;
+	word-spacing: 10px;
+	color: rgb(5, 5, 131);
+	position: fixed;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	animation: marquee 10s linear infinite;
+	animation-delay: 5s;
+}
+.marquee__text-four {
+	left: 100%;
+	word-spacing: 10px;
+	color: rgb(5, 5, 131);
+	position: fixed;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	animation: marquee 10s linear infinite;
+	animation-delay: 7.5s;
 }
 
 @keyframes marquee {
@@ -58,15 +85,17 @@ body {
 
 h1 {
 	color: blue;
-	font-size: 30px;
+	font-size: 70px;
+	letter-spacing: 1.5;
 	width: 100%;
 	height: 200px;
+	padding: 20px;
+	padding: 10px;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transform: skew(30deg) scale(1.5, 3);
-
-
+	transform: skew(30deg);
 }
 
 .container {
@@ -104,9 +133,12 @@ h1 {
 	transform: rotate(360deg);
 }
 
-/* @media (max-width: 960px) {
+@media (max-width: 960px) {
 	body {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-} */
+	h1 {
+		font-size: 40px;
+	}
+}
