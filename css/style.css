@@ -3,8 +3,8 @@ body {
 		to right,
 		pink 0%,
 		pink 50%,
-		paleturquoise 50%,
-		paleturquoise 100%);
+		rgb(179, 175, 238) 50%,
+		rgb(179, 175, 238) 100%);
 	padding-left: 100px;
 	padding-right: 100px;
 }
