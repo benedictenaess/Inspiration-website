@@ -1,17 +1,17 @@
 body {
 	background: linear-gradient(
 		to right,
-		rgb(226, 176, 185) 0%,
-		rgb(240, 74, 101) 50%,
+		rgb(213, 61, 130) 0%,
+		rgb(213, 61, 130) 50%,
 		rgb(39, 25, 229) 50%,
-		rgb(179, 175, 238) 100%);
+		rgb(39, 25, 229) 100%);
 	padding-left: 100px;
 	padding-right: 100px;
 }
 
 .marquee {
 	position: absolute;
-	background: rgb(39, 25, 229);
+	background: rgb(227, 215, 255);
 	height: 24px;
 	width: 100%;
 	bottom: 0;
@@ -23,7 +23,7 @@ body {
 
 .marquee__text-one {
 	word-spacing: 15px;
-	color: white;
+	color: rgb(39, 25, 229);
 	position: fixed;
 	display: flex;
 	justify-content: space-evenly;
@@ -48,7 +48,7 @@ body {
 .marquee__text-three {
 	left: 100%;
 	word-spacing: 10px;
-	color: white;
+	color: rgb(39, 25, 229);
 	position: fixed;
 	display: flex;
 	justify-content: space-evenly;
@@ -83,8 +83,8 @@ body {
 }
 
 h1 {
-	color: white;
-	text-shadow: 1px 1px 2px rgb(227, 215, 255);
+	color: rgb(253, 252, 255);
+	text-shadow: 1px 1px 2px rgb(109, 46, 255);
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 70px;
 	letter-spacing: 1.5;
@@ -109,7 +109,7 @@ h1:hover {
 }
 
 .small-container {
-	background-color: rgb(227, 215, 255);
+	background-color: rgba(194, 168, 255, 0.67);
 	width: 350px;
 	height: 200px;
 	margin: 10px;
