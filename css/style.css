@@ -1,10 +1,10 @@
 body {
 	background: linear-gradient(
 		to right,
-		rgb(213, 61, 130) 0%,
-		rgb(213, 61, 130) 50%,
-		rgb(39, 25, 229) 50%,
-		rgb(39, 25, 229) 100%);
+		rgb(223, 93, 151) 0%,
+		rgb(223, 93, 151) 50%,
+		rgb(46, 33, 222) 50%,
+		rgb(46, 33, 222) 100%);
 	padding-left: 100px;
 	padding-right: 100px;
 }
