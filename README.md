@@ -28,6 +28,7 @@ To get started, simply open the `index.html` file in your preferred web browser.
 ## Usage
 
 Explore the Inspiration Website to discover a variety of inspiring websites. Click on the images, and let the design and content of these websites spark your creativity.
+https://chimerical-bunny-8d0f86.netlify.app
 
 ## Design and Styling
 
